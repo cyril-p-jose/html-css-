@@ -1,0 +1,67 @@
+<style>
+    .subscribe-button{
+        background-color: rgb(252, 16, 16);
+        color: white; <!-- for text color-->
+        border :none;
+        height: 50px;
+        width: 100px;
+        border-radius:2px;
+        cursor: pointer;
+        margin-right:20px;
+        transition:opacity 5s;
+    }
+    .subscribe-button:hover{
+        background-color:chartreuse;
+        color: brown;
+        
+    }
+
+    .subscribe-button:active{
+        background-color: blue;
+    }
+
+    .join-button{
+        background-color:rgb(255,255,255);
+        border-color:rgb(15, 64, 227);
+        border-width: 2px;
+        color:blue;
+        height: 36px;
+        width:80px;
+        border-radius: 2px;
+        transition:background-color 3s; <!--transition make how slower we change changes when we hover over a button-->
+    }
+    .join-button:hover{
+        background-color: blue;
+        color: aliceblue;
+    }
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+    .tweet-button{
+        background-color:rgb(15, 174, 227);
+        color: white;
+        border:none;
+        height:36px;
+        width:82px;
+        border-radius: 20px; <!--to round the border-->
+        font-weight: bold;
+        font-size: 16px;
+        cursor:pointer;
+        margin-left:8px;
+        box-shadow:10px 10px 10px red; <!--first 10px for horizontal direction,second 10px for vertical direction,third 10px for blur,then add color of shadow-->
+        <!--insted of red we can use rgba(0,0,0.7); where rgba()third 0.7 gives opacity-->
+        <!--to make transition os shadow use[transition:box-shadow 0.7s]   -->
+    }
+</style>
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+
+<button class="join-button">join</button>
+
+
+
+<button class="tweet-button">join</button>
